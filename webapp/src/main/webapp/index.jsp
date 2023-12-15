@@ -1,7 +1,18 @@
-<h1> Hello Dear Students !!, Welcome to DevOps Project-2 !! </h1>
-<h2> It's time to start the DevOps Project-2!! Get ready!! </h2>
-<h2> Shree Radha Rani </h2>
-<h2> Radha Radha Radha Radha Radha Radha  </h2>
-<h2> This is what compleye End-to-End CI-CD Pipeline DevOps Project!! </h2>
-<h2> Radha Rani ki kunj vela </h2>
-<h2> Radha Radha Radha Radha Radha </h2>
+<html>
+<head><title>First JSP</title></head>
+<body>
+  <%
+    double num = Math.random();
+    if (num > 0.95) {
+  %>
+      <h2>You'll have a luck day!</h2><p>(<%= num %>)</p>
+  <%
+    } else {
+  %>
+      <h2>Well, life goes on ... </h2><p>(<%= num %>)</p>
+  <%
+    }
+  %>
+  <a href="<%= request.getRequestURI() %>"><h3>Try Again</h3></a>
+</body>
+</html>
