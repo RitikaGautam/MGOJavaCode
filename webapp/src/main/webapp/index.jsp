@@ -4,3 +4,4 @@
 <h2> This is how we create a pipeline to deploy an web application </h2>
 <h2> I love my family </h2>
 <h2> Terminal Servers Tools Games Sessions View Split MultiExec Tunneling Packages Settings Help Save </h2>
+<h2> We re manually building the job, now er will make it autmatic</h2>
